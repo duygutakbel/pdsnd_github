@@ -25,7 +25,7 @@ def get_filters():
 
     # get specified city  
     while True:
-        city = input('Which city would you like hear about?\n').lower()
+        city = input('Hello, which city would you like hear about?\n').lower()
         if city in CITY_DATA:
             city
             print("\nGreat Choice! Now it is time to pick a month.\n")
