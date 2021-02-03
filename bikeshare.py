@@ -25,7 +25,7 @@ def get_filters():
 
     # get specified city  
     while True:
-        city = input('Which city would you like hear about?\n').lower()
+        city = input('Hello, which city would you like hear about?\n').lower()
         if city in CITY_DATA:
             city
             print("\nGreat Choice! Now it is time to pick a month.\n")
@@ -49,7 +49,7 @@ def get_filters():
     
     # get specified day 
     while True:
-        day = input('Which day would you like hear about?\n').lower()
+        day = input('Hello Which day would you like hear about?\n').lower()
         if day in DAY_DATA:
             day
             print("\n Good to go! Now it is time to make some calculations.\n")
